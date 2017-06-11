@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <meta name="author" content="Akshay" />
+    <meta name="description" content="Personal blog and resume">
+    <link rel="favicon" href="/akshay/static/img/favicon.ico">
+
+    
+      <title>DOCKER </title>
+    
+	
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+    crossorigin="anonymous">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="/akshay/static/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="/akshay/static/css/syntax.css" />
+
+    <!-- Google Analytics -->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69391421-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </head>
+  <!-- Main Body-->
+  <body>
+  <!-- Wrap all page content here -->
+  <div id="wrap">
+    <!-- Navbar header -->
+    <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/akshay/"><i class="fa fa-home"></i></a>
+    </div>
+    <div id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/akshay/blog.html">BLOG</a></li>
+
+        <li><a href="http://AkshayKishore.github.io/vitae">RESUME</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="container">
+	<div class="blog-post">
+		<h3>
+		  <strong><a href="/docker.html">DOCKER </a></strong>
+		</h3>
+	</div>
+	<div class="blog-title">
+		<h4>
+		April 29, 2017
+			&nbsp;&nbsp;
+			
+		</h4>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<div class="blogpost">
+			  <div dir="ltr" style="text-align: left;" trbidi="on"><h2>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: purple;">DOCKER</span></h2><div><span style="color: purple;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>Hello guys this is akshay once again in the last blog we have discussed about the details of REST API i guess you would be clear with the concepts now let's discuss about Docker in this blog .Before entering into the topic let's discuss about virtual machines ,why do we want to discuss about VM in docker ? what's is the relation between them let's discuss about these in detail.</div><div><br /></div><h3 style="text-align: left;"><span style="color: cyan;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; OVERVIEW OF VIRTUAL MACHINE:</span></h3><div><span style="color: cyan;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="font-family: Arial, Helvetica, sans-serif;">&nbsp;</span></span><span style="font-family: Arial, Helvetica, sans-serif;"><span style="background-color: white; color: #222222;">In computing, a&nbsp;</span><span style="background-color: white; color: #222222;">virtual machine</span><span style="background-color: white; color: #222222;">&nbsp;</span><span style="background-color: white; color: #222222;">&nbsp;is an&nbsp;</span>emulation<span style="background-color: white; color: #222222;">&nbsp;of a computer system. Virtual machines are based on&nbsp;</span>computer architectures<span style="background-color: white; color: #222222;">&nbsp;and provide functionality of a physical computer. Their implementations may involve specialized hardware, software, or a combination.</span></span></div><div class="separator" style="clear: both; text-align: center;"><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Hardware_Virtualization_%28copy%29.svg/220px-Hardware_Virtualization_%28copy%29.svg.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="" border="0" class="thumbimage" data-file-height="970" data-file-width="740" height="288" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Hardware_Virtualization_%28copy%29.svg/220px-Hardware_Virtualization_%28copy%29.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Hardware_Virtualization_%28copy%29.svg/330px-Hardware_Virtualization_%28copy%29.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/08/Hardware_Virtualization_%28copy%29.svg/440px-Hardware_Virtualization_%28copy%29.svg.png 2x" width="220" /></a></div><div class="separator" style="clear: both; text-align: left;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;This is actually how virtual machines actually works .Virtual machines can be implemented by using softwares like VMware , Oracle VM etc.. this actually runs as a software in our own OS from this software we could be able to run our guest OS .Guest OS can be installed via two types where actually hypervisor comes into picture there are actually two types of Hypervisor either it can be implemented through softwares else by directly running it on our current OS .This is all about the overview of virtual machines.Now let's demistify Docker now,</div><div class="separator" style="clear: both; text-align: left;"><br /></div><h3 style="clear: both; text-align: left;"><span style="color: cyan;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; DOCKER:</span></h3><div><span style="color: cyan;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>Docker is something which is now replacing virtual machines wow its wondering right lets discuss about it in detail.<span style="font-family: Arial, Helvetica, sans-serif;">Docker<span style="background-color: white;">&nbsp;is an open source container orchestration engine that separates applications from their underlying operating system. In other words, it is&nbsp;</span><span style="background-color: white; box-sizing: border-box;">commoditized LXC</span><span style="background-color: white;">.</span></span><span style="background-color: white; font-family: Arial, Helvetica, sans-serif;">The goal of Docker is to act like a standard shipping container for software. The developer packages a container with the required software and its dependencies. The DevOps and infrastructure team manages and deploys the container.</span></div><div><div style="background-color: white; box-sizing: border-box; margin-bottom: 1rem;"><img alt="Docker packaging" src="http://anandmanisankar.com/assets/images/docker_ship.png" style="border-radius: 5px; box-sizing: border-box; display: block; margin: 0px 0px 1rem; max-width: 100%;" title="Courtesy: Presentation from Solomon Hykes, CTO, Docker" /></div><div style="background-color: white; box-sizing: border-box; margin-bottom: 1rem;"><span style="font-family: Arial, Helvetica, sans-serif;"><span style="box-sizing: border-box;">The differentiator for Docker, as against standard Linux Containers, is that it treats containers as a unit of software delivery - or an envelope for running an application</span><strong style="box-sizing: border-box;">.</strong>&nbsp;So the commands and API calls are all process oriented. Here it is important to note that Docker runs 1 process per container, which is a major difference from other container engines like Warden.</span></div><div style="background-color: white; box-sizing: border-box; margin-bottom: 1rem;"><br /></div><h3 id="how-do-i-run-docker" style="background-color: white; box-sizing: border-box; letter-spacing: -0.025rem; line-height: 1.25; margin-bottom: 0.5rem; margin-top: 1.5rem; text-align: left; text-rendering: optimizeLegibility;"><span style="color: cyan; font-family: Arial, Helvetica, sans-serif; font-size: small;">How do I run Docker?</span></h3><div style="background-color: white; box-sizing: border-box; margin-bottom: 1rem;"><span style="font-family: Arial, Helvetica, sans-serif;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; On a Linux system, you can install Docker and get started right away. It can conveniently use your host linux kernel and run containers on top of it. But if you are running OSX or Windows, you will need a virtual linux system to run docker off of. To make it easier for you, Docker provides a bootstrap called&nbsp;<span style="color: black;">boot2docker</span>, which is essentially a virtual linux distro (Tiny Core Linux) with Docker pre-installed. boot2docker boots off of Virtual Box and provides you the required environment to run the Docker Engine.</span></div><table style="background-color: white; border-collapse: collapse; border: 1px solid rgb(229, 229, 229); box-sizing: border-box; margin-bottom: 1rem; width: 720px;"><thead style="box-sizing: border-box;"><tr style="box-sizing: border-box;"><th style="border: 1px solid rgb(229, 229, 229); box-sizing: border-box; padding: 0.25rem 0.5rem; text-align: center;"><span style="font-family: Arial, Helvetica, sans-serif;">Docker on Linux</span></th><th style="border: 1px solid rgb(229, 229, 229); box-sizing: border-box; padding: 0.25rem 0.5rem; text-align: center;"><span style="font-family: Arial, Helvetica, sans-serif;">boot2docker on OSX</span></th></tr></thead><tbody style="box-sizing: border-box;"><tr style="box-sizing: border-box;"><td style="background-color: #f9f9f9; border: 1px solid rgb(229, 229, 229); box-sizing: border-box; padding: 0.25rem 0.5rem; text-align: center;"><img alt="Docker on linux" src="http://anandmanisankar.com/assets/images/docker_linux.png" style="border-radius: 5px; box-sizing: border-box; display: block; margin: 0px 0px 1rem; max-width: 100%;" title="Courtesy: https://docs.docker.com/installation/mac/" /></td><td style="background-color: #f9f9f9; border: 1px solid rgb(229, 229, 229); box-sizing: border-box; padding: 0.25rem 0.5rem; text-align: center;"><img alt="boot2docker" src="http://anandmanisankar.com/assets/images/boot2docker.png" style="border-radius: 5px; box-sizing: border-box; display: block; margin: 0px 0px 1rem; max-width: 100%;" title="Courtesy: https://docs.docker.com/installation/mac/" /></td></tr></tbody></table><h3 id="docker-components" style="background-color: white; box-sizing: border-box; letter-spacing: -0.025rem; line-height: 1.25; margin-bottom: 0.5rem; margin-top: 1.5rem; text-align: left; text-rendering: optimizeLegibility;"><span style="color: cyan; font-family: Arial, Helvetica, sans-serif; font-size: small;">Docker components</span></h3><div style="background-color: white; box-sizing: border-box; margin-bottom: 1rem;"><span style="font-family: Arial, Helvetica, sans-serif;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Docker creates containers out of&nbsp;<strong style="box-sizing: border-box;">images</strong>, which are basically just tar balled file structure. Once a container is created out of an image, you can package applications and its dependencies into it, run a process/daemon/service on it, and keep the container running as long as you want the process to run. (The inverse is true as well: the container runs as long as the process is alive)</span></div><div style="background-color: white; box-sizing: border-box; margin-bottom: 1rem;"><span style="font-family: Arial, Helvetica, sans-serif;">You can also commit the changes you’ve made in your container back to the image, which is versioned and layered. Docker also provides an online registry called&nbsp;<span style="box-sizing: border-box;">’<span style="box-sizing: border-box;">Docker Hub</span>’</span>&nbsp;where you can push and pull images from. It acts as a central build infrastructure and image sharing repository.</span></div><ul style="background-color: white; box-sizing: border-box; margin-bottom: 1rem; margin-top: 0px;"><li style="box-sizing: border-box;"><span style="font-family: Arial, Helvetica, sans-serif;"><strong style="box-sizing: border-box;">Container</strong>: an application sandbox</span></li><li style="box-sizing: border-box;"><span style="font-family: Arial, Helvetica, sans-serif;"><strong style="box-sizing: border-box;">Image</strong>: a static snapshot of the containers’ configuration</span></li><li style="box-sizing: border-box;"><span style="font-family: Arial, Helvetica, sans-serif;"><strong style="box-sizing: border-box;">Registry/Hub</strong>: a repository of images</span></li><li style="box-sizing: border-box;"><span style="font-family: Arial, Helvetica, sans-serif;"><strong style="box-sizing: border-box;">Dockerfile</strong>: a configuration file with build instructions for Docker images</span></li><li style="box-sizing: border-box;"><span style="font-family: Arial, Helvetica, sans-serif;"><strong style="box-sizing: border-box;">Docker Compose</strong>: tool for defining and running complex applications with Docker</span></li></ul><div><span style="font-family: Arial, Helvetica, sans-serif;">&nbsp; &nbsp; &nbsp;This is how actually docker works in our platform the diagram given below gives the workflow of Docker using nodejs,NGINX,REDIS(database).</span></div></div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: left;"><a href="http://anandmanisankar.com/assets/images/DockerSample.png" imageanchor="1" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;"><img alt="Docker Sample" border="0" src="http://anandmanisankar.com/assets/images/DockerSample.png" title="Docker Sample" /></a></div><div class="separator" style="clear: both; text-align: left;">&nbsp; &nbsp; &nbsp; &nbsp; That's all about today's section let's discuss about some of the new topics in the upcoming blog stay tunned guys bye 👋👋👋👋👋</div></div>
+			   <hr>
+			   <div class="related-posts">
+				   <h5>Related Posts</h5>
+				   
+						<div class="row">
+							 <div class="col-sm-4 col-md-4 col-lg-4">
+								 <h6 style="text-align: right">
+								 	June  8, 2017
+								 </h6>
+							 </div>
+							 <div class="col-sm-8 col-md-8 col-lg-8">
+								 <h6 style="text-align: left">
+								 	<strong><a href="/akshay//testing.html">TESTING</a></strong>
+								 </h6>
+							 </div>
+						</div>
+					
+						<div class="row">
+							 <div class="col-sm-4 col-md-4 col-lg-4">
+								 <h6 style="text-align: right">
+								 	June  6, 2017
+								 </h6>
+							 </div>
+							 <div class="col-sm-8 col-md-8 col-lg-8">
+								 <h6 style="text-align: left">
+								 	<strong><a href="/akshay//functional-programming-languages.html">FUNCTIONAL PROGRAMMING LANGUAGES</a></strong>
+								 </h6>
+							 </div>
+						</div>
+					
+						<div class="row">
+							 <div class="col-sm-4 col-md-4 col-lg-4">
+								 <h6 style="text-align: right">
+								 	June  5, 2017
+								 </h6>
+							 </div>
+							 <div class="col-sm-8 col-md-8 col-lg-8">
+								 <h6 style="text-align: left">
+								 	<strong><a href="/akshay//nginx.html">NGINX</a></strong>
+								 </h6>
+							 </div>
+						</div>
+					
+			   </div>
+			</div>
+		</div>
+	</div>
+	
+<div class="disqus">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+		/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+		var disqus_shortname = 'username'; // required: replace example with your forum shortname
+		var disqus_identifier = '/docker.html';
+		var disqus_url = 'http://localhost:3000/docker.html';
+ 
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+
+</div>
+
+
+  </div>
+  <!-- Footer -->
+  <footer>
+    <div id="footer">
+        <div class="container">
+            <p class="text-muted">© All rights reserved. 
+            <a href="http://www.github.com/AkshayKishore">Akshay</a> with ♥</p>
+        </div>
+    </div>
+</footer>
+<div class="footer"></div>
+
+    <a href="https://github.com/AkshayKishore"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
+    integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
+    crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="/akshay/static/js/docs.min.js"></script>
+    <script src="/akshay/static/js/main.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/akshay/static/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
