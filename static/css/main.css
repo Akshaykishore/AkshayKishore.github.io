@@ -107,12 +107,12 @@ body {
  max-width: 100%;
 }
 .panel-default h4 {
-  text-align: left;
+  text-align: center;
   line-height: 24px;
   font-size: 22px;
 }
 .panel-default h5 {
-  text-align: left;
+  text-align: center;
   line-height: 30px;
   font-size: 18px;
 }
@@ -130,7 +130,7 @@ body {
 }
 .panel-body {
   padding-top: -10px;
-  text-align: left;
+  text-align: center;
 }
 .social {
   padding-top: 12px;
