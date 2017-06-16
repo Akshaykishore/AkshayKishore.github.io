@@ -1,4 +1,4 @@
-![POPULAR HYBRID APP DEVELOPMENT FRAMEWORKS](https://pt.slideshare.net/PixelCrayons/hybrid-app-development-frameworks-2016)
+<span style="color:Magenta">**POPULAR HYBRID APP DEVELOPMENT FRAMEWORKS**</span>
 
 Hi Everyone!
 This is one of the continuation of the last  topic in that we had discussed only about **meteor** ,
